@@ -27,3 +27,24 @@
 }
 
 .container-mAkQVR {display:none} /* Disable the new aka Feature ty onko! */
+
+/*Some fixes to the user panel (disconnect, mute, other...) */
+.panels-3wFtMD .wrapper-3Hk9OB .container-1zzFcN:after, .panels-3wFtMD .wrapper-3Hk9OB~.container-YkUktl .directionRow-2Iu2A9:after, .panels-3wFtMD:before{
+    content: none;
+}
+.panels-3wFtMD .wrapper-3Hk9OB .container-1zzFcN, .panels-3wFtMD .container-YkUktl{
+    border-radius: 10px;
+    background-color: var(--bg-color);
+    padding: 6px;
+}
+.panels-3wFtMD{
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.panels-3wFtMD .container-YkUktl{
+    margin-bottom: 10px;
+}
+.panels-3wFtMD .wrapper-3Hk9OB .container-1zzFcN{
+    margin-bottom: 6px!important;
+}
